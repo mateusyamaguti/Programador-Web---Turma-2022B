@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <header><h1>Curso de HTML</h1></header>
+    <nav></nav>
+    <section>
+        <form method="post" action="#">
+            Nome: <input type="text" name="nome" placeholder="Informe o seu nome" required><p></p>
+            CPF: <input type="text" name="cpf" placeholder="Informe o seu CPF" maxlength="14" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}"><p></p>
+            Senha: <input type="password" name="senha"><p></p>
+            Descrição <textarea name="descricao" id="" cols="30" rows="10"></textarea><p></p>
+            <button type="submit">Enviar</button>
+        </form>
+        <form method="post" action="#">
+            <p><h3>Label</h3></p>
+            <label for="endereco">Endereço</label>
+            <textarea name="endereco" id="endereco" cols="30" rows="10"></textarea>
+        </form>    
+        <form action="#" method="post">
+            <label for="homem">Homem</label>
+            <input type="radio" name="sexo" id="homem" value="homem"><br>
+            <label for="mulher">Mulher</label>
+            <input type="radio" name="sexo" id="mulher" value="mulher">
+        </form>
+        <form action="">
+            <p><h3>Fieldset</h3></p>
+            <fieldset>
+                <legend>Dados Pessoais:</legend>
+                Nome:<input type="text"><br>
+                Email: <input type="text"><br>
+                Nascimentos: <input type="text">
+            </fieldset>
+        </form>
+        <form action="#" method="post">
+            <p><h3>Checkbox</h3></p>
+            Qual curso você fará? <br>
+            <input type="checkbox" name="html" value="1" checked>HTML<br>
+            <input type="checkbox" name="css" value="1">CSS<br>
+            <input type="checkbox" name="javascript" value="1">javascript<br>
+        </form>
+        <form action="#" method="post">
+            <p><h3>SELECT</h3></p><br>
+            Selecione o Estado <br>
+            <select name="estado">
+                <option value="sao_paulo">São Paulo</option>
+                <option value="acre">Acre</option>
+                <option value="tocantins">Tocantins</option>
+            </select>
+        </form>
+        <form action="#" method="post">
+            <input type="email" name="email">
+            <input type="date" name="date">
+            <input type="range" name="faixa">
+            <input type="color" name="cor">
+        </form>
+    </section>
+    <footer></footer>
+    
+</body>
+</html>
+

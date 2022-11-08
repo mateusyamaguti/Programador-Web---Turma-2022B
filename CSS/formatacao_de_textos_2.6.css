@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(190, 188, 188);
+}
+a:link{
+    background-color: #b2ff99;
+    color: blue;
+}
+a:visited{
+    background-color: #ffff85;
+    color: red;
+}
+a:hover{
+    background-color: #77704d;
+    color: green;
+}
+a:active{
+    background-color: #ff704d;
+}
+/* ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    list-style-image: url('cubo.png');
+    list-styyle-positions: inside;
+} */
+
+UL{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    list-style-type: disc;
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+.item1{
+    list-style-image: url('cubo.png');
+    list-styyle-positions: inside;
+}
+.item2{
+    list-style-image: url('cubomagico.png');
+    list-styyle-positions: inside;
+}
+.item3{
+    list-style-image: url('cubo.png');
+    list-styyle-positions: inside;
+}
+
